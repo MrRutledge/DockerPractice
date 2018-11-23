@@ -21,3 +21,15 @@ docker build -t <cotainer-Id> .
 
 COPY statment
 This comand is really import i the docker file, everytime the file is run the programe goes line by line and running alot of copy commands might make your longer to build.
+
+setting up a network connection between two seperate containers
+'''
+ [NodeApp-container]--Network-->[Redis-Contaier]
+'''
+We can use Docker CLI network features
+or we can use a seperate Docker compose
+
+**Docker compose** is a new CLI in docker 
+it helps us to speed us the running the container especially multiple containers
+
+It also helps us to automate most of the commands that we have been running by hand.
