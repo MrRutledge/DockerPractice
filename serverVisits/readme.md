@@ -33,3 +33,11 @@ or we can use a seperate Docker compose
 it helps us to speed us the running the container especially multiple containers
 
 It also helps us to automate most of the commands that we have been running by hand.
+
+Four ways to automate the container starting processes 
+
+we have the:
+"no"----> this policy never restarts the conatainer
+"+ always"----> this policy states that the container always try to restart
+"on-failure"---> only restart if a container stops with an error code
+"unless-stopped"---> always restart unless unless the developer forcibly stops it.
