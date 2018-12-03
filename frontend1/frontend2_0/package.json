@@ -1,7 +1,7 @@
 {
-  "name": "y",
+  "name": "frontend2_0",
   "version": "0.1.0",
-  "description": "This project was created with [Create New App](https://github.com/qodesmith/create-new-app).",
+  "description": "",
   "keywords": [],
   "author": "",
   "email": "",
@@ -55,8 +55,5 @@
   "scripts": {
     "build": "cross-env NODE_ENV=production webpack --mode production --env.prod",
     "start": "cross-env NODE_ENV=development webpack-dev-server --mode development --env.dev --progress"
-  },
-  "main": "after-compile-plugin.js",
-  "dependencies": {},
-  "license": "ISC"
+  }
 }
