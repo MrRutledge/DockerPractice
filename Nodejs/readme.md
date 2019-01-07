@@ -20,4 +20,4 @@ docker build -t <cotainer-Id> .
 ''' 
 
 COPY statment
-This comand is really import i the docker file, everytime the file is run the programe goes line by line and running alot of copy commands might make your longer to build.
+This command is really import i the docker file, everytime the file is run the programe goes line by line and running alot of copy commands might make your longer to build.
