@@ -3,6 +3,15 @@ services:
   redis-server:
     image: 'redis'
   node-app:
+    restart: no
     build: .
     ports:
-      - "2376:8086"
+      - "4001:8086"
+
+#Docker compose notes 
+# To start a docker-compose up
+# To build the container docker-compose --build
+# To start multiple containes append -d to the start comand
+# To stop containers docker-compose down
+# To status of the running contaniers docker-compose ps in a folder wil a YAML file
+# We also have Restart commands that help us to restart 
